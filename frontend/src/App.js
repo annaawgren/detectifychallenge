@@ -16,7 +16,7 @@ class App extends Component {
         return response.json()
       }).then(json => {
         console.log('set state', typeof json)
-        this.setState({ dataList: json.relation })
+        this.setState({ dataList: json })
       })
     }
 

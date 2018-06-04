@@ -4,7 +4,7 @@ import bodyParser from "body-parser"
 import cors from "cors"
 
 	const app = express()
-	const theData = require("./data.json")
+	const theData = require("./newdata.json")
 
 	app.get("/", (req, res) => {
 		res.header("Access-Control-Allow-Origin", "*")

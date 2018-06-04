@@ -1,0 +1,133 @@
+[{
+  "id": "1",
+  "name": "Minh Mat",
+  "type": "Restaurant",
+  "lat": "59.340757",
+  "long": "18.041547",
+  "area": "Vasastan",
+  "phoneNumber": "08-30 32 32",
+  "address": "Odengatan 94",
+  "homepage": "www.minhmat.se"
+}, {
+  "id": "2",
+  "name": "Paradiset",
+  "type": "Restaurant, market",
+  "lat": "59.33396",
+  "long": "18.068371",
+  "area": "City",
+  "openingHours": "Mon-Fri: 08-20 Sat: 10-18 Sun: 11-17",
+  "phoneNumber": "08-613 36 00",
+  "address": "Brännkyrkagatan 62",
+  "homepage": "www.paradiset.se"
+}, {
+  "id": "3",
+  "name": "The Plant",
+  "type": "Restaurant",
+  "lat": "59.308771",
+  "long": "18.074695",
+  "area": "Södermalm",
+  "openingHours": "Mon-Thur: 11–21 Fri-Sat: 11–22 Sun 11–20",
+  "phoneNumber": "08-613 36 00",
+  "address": "Götgatan 132",
+  "homepage": "www.theplant.se"
+}, {
+  "id": "4",
+  "name": "Bio Rio",
+  "type": "Restaurant",
+  "lat": "59.31535",
+  "long": "18.030648",
+  "area": "Hornstull",
+  "openingHours": "Mon-Thur: xx Fri-Sat: xx Sun xx",
+  "phoneNumber": "08-669 95 00",
+  "address": "Hornstulls strand 3",
+  "homepage": "www.biorio.se"
+}, {
+  "id": "5",
+  "name": "Pepstop",
+  "type": "Restaurant",
+  "lat": "59.334981",
+  "long": "18.075238",
+  "area": "Hornstull",
+  "openingHours": "Mon-fri: 07:30-19:30 Sat: 10-17",
+  "phoneNumber": "08-530 33 600",
+  "address": "Riddargatan 3A",
+  "homepage": "www.pepstop.se"
+}, {
+  "id": "6",
+  "name": "Falloumi",
+  "type": "Restaurant",
+  "lat": "59.308184",
+  "long": "18.07781",
+  "area": "Skanstull",
+  "openingHours": "Mon-fri: 11-21 Sat: 12-21",
+  "phoneNumber": "08-462 96 29",
+  "address": "Ringvägen 127",
+  "homepage": "www.falloumi.se"
+}, {
+  "id": "7",
+  "name": "Yellow Matbaren",
+  "type": "Restaurant",
+  "lat": "59.317931",
+  "long": "18.032061",
+  "area": "Hornstull",
+  "openingHours": "Mon-Fri 07.30-14",
+  "phoneNumber": "08-121 496 25",
+  "address": "Långholmsgatan 14",
+  "homepage": "www.yellowmatbaren.se"
+}, {
+  "id": "8",
+  "name": "Lao Wai",
+  "type": "Restaurant",
+  "lat": "59.342072",
+  "long": "18.059052",
+  "area": "City",
+  "openingHours": "Mon-Fri 11–14, 17:30–22 Sat: 17.30-22",
+  "phoneNumber": "08-673 78 00",
+  "address": "Luntmakargatan 74",
+  "homepage": "www.laowai.se"
+}, {
+  "id": "9",
+  "name": "Organic Green",
+  "type": "Restaurant",
+  "lat": "59.342466",
+  "long": "18.057969",
+  "area": "City",
+  "openingHours": "Mon-thur: 08:30–20 Fri: 10-18 Sat: 10-16",
+  "phoneNumber": "08-612 74 84",
+  "address": "Rehnsgatan 24",
+  "homepage": "facebook.com/organicgreen"
+}, {
+  "id": "10",
+  "name": "Martins gröna",
+  "type": "Restaurant",
+  "lat": "59.338013",
+  "long": "18.067081",
+  "area": "City",
+  "openingHours": "Mon-Fri: 11-14",
+  "phoneNumber": "08-411 58 50",
+  "address": "Regeringsg. 91",
+  "homepage": "martinsgrona.com"
+}, {
+  "id": "11",
+  "name": "Delivore",
+  "type": "Restaurant, cafe",
+  "lat": "59.315068",
+  "long": "18.033025",
+  "area": "Hornstull",
+  "openingHours": "Mon-Fri: 11-18 Sat-Sun: 11-17",
+  "phoneNumber": "08-500 233 11",
+  "address": "Hornsgatan 149",
+  "homepage": "delivore.se"
+}, {
+  "id": "12",
+  "name": "Goodstore & Café Delivore",
+  "type": "cafe, store",
+  "lat": "59.313039",
+  "long": "18.0748",
+  "area": "Sofo",
+  "openingHours": "Mon-Fri: 11-18 Sat: 11-17 Sun: 12-17",
+  "phoneNumber": "08-500 233 11",
+  "address": "Åsögatan 116",
+  "homepage": "delivore.se"
+}
+]
