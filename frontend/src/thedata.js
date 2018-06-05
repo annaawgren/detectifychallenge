@@ -1,24 +1,36 @@
 import React from "react"
 
+import "./thedata.css"
+
 class Thedata extends React.Component {
+  constructor(props){
+    super(props)
+    this.state = {
+      dataVisible: false
+    }
+  }
 
 
+  handleDataVisibleClick = () => {
+  this.setState({ dataVisible: !this.state.dataVisible })
+}
 
   render() {
     return(
       <div>
 
         <div className="datainfo-container">
-
-          <div className="data-content-container">
-            <h1 className="data-name">{this.props.name}</h1>
-            <p className="datainfo-txt">{this.props.pageTitle}</p>
-            <p className="datainfo-txt">{this.props.url}</p>
-            <p className="datainfo-txt">{this.props.headerPosition}</p>
-            <p className="datainfo-txt">{this.props.tableType}</p>
-            <p className="datainfo-txt">{this.props.tableType}</p>
+          <div className="data-name-container">
+            <h3 className="data-name">{this.props.name}</h3>
+            <div onClick={this.handleDataVisibleClick} className="data-name-plus">+</div>
           </div>
 
+          <div className={`data-info ${this.state.dataVisible ? "visible" : "hidden"}`}>
+            <p className="datainfo-txt">ADDRESS: {this.props.address}</p>
+            <p className="datainfo-txt">PHONE: {this.props.phoneNumber}</p>
+            <p className="datainfo-txt">AREA: {this.props.area}</p>
+            <p className="datainfo-txt">HOMEPAGE: {this.props.homepage}</p>
+          </div>
         </div>
 
       </div>

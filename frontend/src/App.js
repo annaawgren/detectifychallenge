@@ -26,18 +26,11 @@ class App extends Component {
       <Thedata
         key={data.id}
         name={data.name}
-        pagetitle={data.pageTitle}
-        url={data.url}
-        headerPosition={data.headerPosition}
-        tableType={data.tableType}
-        tableNum={data.tableNum}
-        recordEndOffset={data.recordEndOffset}
-        recordOffset={data.recordOffset}
-        textBeforeTable={data.textBeforeTable}
-        textAfterTable={data.textAfterTable}
-        hasKeyColumn={data.hasKeyColumn}
-        keyColumnIndex={data.keyColumnIndex}
-        headerRowIndex={data.headerRowIndex}
+        type={data.type}
+        area={data.area}
+        phoneNumber={data.phoneNumber}
+        address={data.address}
+        homepage={data.homepage}
         />
     ))
   }
@@ -46,12 +39,30 @@ class App extends Component {
     return (
       <div className="App">
 
-        {this.renderDataInfo()}
+        <div className="yourData-header-container">
+          <div className="yourData-headline">
+            <h1>YOUR DATA</h1>
+          </div>
+          <div className="yourData-tagline">
+            <h2>We found these restaurants in your city.</h2>
+          </div>
+        </div>
 
-        <p className="App-intro">
-          hello
+        <div className="thedata-container">
+          {this.renderDataInfo()}
+        </div>
 
-        </p>
+
+        <div className="footer">
+          <div className="coding-challenge-txt">
+            <p>/DETECTIFY WEB CODING CHALLENGE</p>
+          </div>
+          <div className="anna-txt">
+            <p>BY ANNA ÅGREN</p>
+          </div>
+
+
+        </div>
       </div>
     );
   }

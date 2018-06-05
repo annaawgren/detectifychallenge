@@ -43,14 +43,14 @@
   "homepage": "www.biorio.se"
 }, {
   "id": "5",
-  "name": "Pepstop",
-  "type": "Restaurant",
+  "name": "Le Violon Dingue",
+  "type": "Bakery, Restaurant",
   "lat": "59.334981",
   "long": "18.075238",
-  "area": "Hornstull",
-  "openingHours": "Mon-fri: 07:30-19:30 Sat: 10-17",
-  "phoneNumber": "08-530 33 600",
-  "address": "Riddargatan 3A",
+  "area": "City",
+  "openingHours": "Mon-fri: 07-16",
+  "phoneNumber": "08-562 973 73",
+  "address": "Olof Palmes gata 12",
   "homepage": "www.pepstop.se"
 }, {
   "id": "6",

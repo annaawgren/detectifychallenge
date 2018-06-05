@@ -2,27 +2,67 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 200px;
+  margin: 0;
+  padding: 0;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
+h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 2em;
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 5em;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-family: 'Oswald', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.thedata-container {
+  background: red;
+  height: auto;
+  padding: 50px 0 100px 0;
+}
+
+.yourData-header-container {
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.yourData-tagline {
+  margin: 0;
+  padding: 0;
+}
+
+.yourData-headline {
+  margin: 0;
+  padding: 0;
+}
+
+.footer {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: flex-end;
   padding: 20px;
-  color: white;
+  height: 300px;
 }
 
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.coding-challenge-txt {
+  font-size: 3em;
+  line-height: 1em;
 }
