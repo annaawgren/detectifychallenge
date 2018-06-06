@@ -10,7 +10,6 @@ class Thedata extends React.Component {
     }
   }
 
-
   handleDataVisibleClick = () => {
   this.setState({ dataVisible: !this.state.dataVisible })
 }
